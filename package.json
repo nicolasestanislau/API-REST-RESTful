@@ -1,0 +1,11 @@
+{
+  "name": "API-REST-RESTful",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nicolasestanislau/API-REST-RESTful.git",
+  "author": "nicolas.estanislau <nicolas.estanislau@pmovil.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
