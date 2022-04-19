@@ -4,12 +4,6 @@ const data = require("./data.json");
 
 app.use(express.json());
 
-// Verbos HTTP
-// GET Receber dados de um Resource.
-// POST Enviar dados ou informações para serem processados por um Resource.
-// PUT Atualizar dados de um Resource.
-// DELETE Deletar um Resource.
-
 app.get("/clients", function (req, res) {
   res.json(data);
   console.log(typeof res);
